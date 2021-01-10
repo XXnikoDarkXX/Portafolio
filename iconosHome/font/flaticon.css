@@ -1,0 +1,61 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 22/06/2016 15:22
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+margin-left: 20px;
+}
+
+.flaticon-at:before { content: "\f100"; }
+.flaticon-browser:before { content: "\f101"; }
+.flaticon-chat:before { content: "\f102"; }
+.flaticon-clock:before { content: "\f103"; }
+.flaticon-connection:before { content: "\f104"; }
+.flaticon-contacts:before { content: "\f105"; }
+.flaticon-desktop:before { content: "\f106"; }
+.flaticon-faq:before { content: "\f107"; }
+.flaticon-home:before { content: "\f108"; }
+.flaticon-information:before { content: "\f109"; }
+.flaticon-international:before { content: "\f10a"; }
+.flaticon-interphone:before { content: "\f10b"; }
+.flaticon-keyboard:before { content: "\f10c"; }
+.flaticon-laptop:before { content: "\f10d"; }
+.flaticon-link:before { content: "\f10e"; }
+.flaticon-location:before { content: "\f10f"; }
+.flaticon-mail:before { content: "\f110"; }
+.flaticon-meetup:before { content: "\f111"; }
+.flaticon-message:before { content: "\f112"; }
+.flaticon-mouse:before { content: "\f113"; }
+.flaticon-news:before { content: "\f114"; }
+.flaticon-office:before { content: "\f115"; }
+.flaticon-open:before { content: "\f116"; }
+.flaticon-phone-call:before { content: "\f117"; }
+.flaticon-schedule:before { content: "\f118"; }
+.flaticon-smartphone:before { content: "\f119"; }
+.flaticon-sms:before { content: "\f11a"; }
+.flaticon-support:before { content: "\f11b"; }
+.flaticon-videocall:before { content: "\f11c"; }
+.flaticon-visit-card:before { content: "\f11d"; }
