@@ -31,3 +31,11 @@ def page_shell(content):
         min_height="100vh",
         color="rgba(255,255,255,0.92)",
     )
+
+def page_shell_free(*children):
+    return rx.box(navbar(), *children,
+      background_color="#0b1020",
+      min_height="100vh",
+      color="rgba(255,255,255,0.92)",
+    )
+

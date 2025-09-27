@@ -2,10 +2,14 @@ import reflex as rx
 
 def container(*children):
     return rx.box(
-        rx.vstack(*children, spacing="3"),
-        width="100%", max_width="80rem", margin_x="auto",
-        padding_x=["1rem","2rem","3rem"], padding_y=["1rem","2rem","3rem"],
+        rx.vstack(*children, spacing="4", align="center"),
+        width="100%",
+        max_width="100rem",  # o 120rem si lo quieres más ancho
+        margin_x="auto",
+        padding_x={"base": "1rem", "sm": "2rem", "md": "3rem"},
+        padding_y={"base": "1rem", "sm": "2rem", "md": "3rem"},
     )
+
 
 def card(*children):
     return rx.box(
@@ -38,4 +42,12 @@ def btn(text, href="#", external=False):
             _hover={"background_color":"rgba(255,255,255,0.12)"},
         ),
         href=href, is_external=external
+    )
+def wide_container(*children):
+    return rx.box(
+        rx.vstack(*children, spacing="4"),
+        width="100%",
+        max_width="110rem",                       # antes 120–130rem → un pelín más estrecho
+        margin_x="auto",
+        padding_x={"base":"1rem","sm":"2rem","md":"3rem"},  # margen interno lateral
     )
